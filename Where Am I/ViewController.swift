@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
-
+    
+    let camera = MKMapCamera.init()
+    let mapView = MKMapView.init()
+    //let marker = MKAnnotation.init(title: "Me", subtitle: "I am here", coordinate: CLLocationCoordinate2D(latitude: 18.597529, longitude: 73.776981))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
